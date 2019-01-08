@@ -1,0 +1,110 @@
+table, tr, th{
+    border-collapse: collapse; 
+}
+
+table{
+    width: 100%;
+    margin-top: 1%; 
+}
+
+.content-center{
+    text-align: center;
+}
+
+tr:nth-child(even){background-color: #ECF0F1;}
+
+th{
+    border: 1px solid #ddd;
+    max-width: 100vh;
+    text-align: center;
+    padding: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.btlihat{
+    background-color: #2ECC71;
+    color: #fff;
+}
+
+.btblue{
+    background-color: #3498DB;
+    color: #fff;
+}
+
+.btedit{
+    background-color: #E67E22;
+    color: #fff;
+}
+
+.btdelete{
+    background-color: #E74C3C;
+    color: #fff;
+}
+
+.alertsuccess{
+    background-color: #ABEBC6;
+    color: #1D8348;
+}
+
+.alertwarning{
+    background-color: #F5CBA7;
+    color: #9C640C;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    margin: 1px;
+    padding: 1px 15px;
+}
+
+button:hover{
+ background-color: #D0D3D4;   
+}
+iframe{
+    border: none;
+    width: 100%;
+    height: auto;
+}
+
+textarea{
+    width: 100%;
+    min-height: 80px;
+    resize: none;
+}
+
+.bgpopup{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5); 
+}
+.content_popup{
+    background-color: #fefefe;
+    margin: 7% auto;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+}
+.alert_popup{
+    margin: auto;
+    padding: 10px;
+    width:85%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.headtable{
+    background-color: #2980B9;
+    color: #fff;
+}
+.radio{
+    margin-left: 20px;
+}
